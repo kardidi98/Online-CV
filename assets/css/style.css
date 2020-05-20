@@ -1,0 +1,125 @@
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+
+.button:hover {
+background: #04b2cc;
+color: #fff;
+}
+
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+
+}
+
+
+body {
+    background: #F9F9F8  ;
+    background-position: top center;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 0;
+    margin: 10px;
+    color: #444;
+}
+
+.cacher{
+  display: none;
+}
+
+.controlscv{
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: #fff;
+ /* margin-right: 0;*/
+
+}
+.title{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 8px;
+}
+
+.footer-cpr{
+  border-top  : 0.2px solid #d7d7d7;
+}
+
+#ajoutSection{
+  /*position: absolute;*/
+  
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+#explication{
+  margin-left: 3px;
+}
+
+#intitulé{
+  margin-left: 15px;
+  font-family: 'Helvetica Neue';
+}
+#barreInfoPerso{
+  margin-bottom: 50px;
+}
+
+#textzoneSections{
+  margin-left: 15px;
+}
+
+#expProftitle{
+  margin-left: 9px;
+}
+
+.editor{
+  margin-left: 15px;
+}

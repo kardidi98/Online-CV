@@ -1,0 +1,83 @@
+
+
+
+  .vertical-menu {
+  width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  /*border-bottom: 0;*/
+ 
+}
+
+.vertical-menu a:hover {
+     color: #04b2cc;
+     text-decoration: none;
+}
+
+.vertical-menu a.active {
+  background: #04b2cc;
+  color: white;
+}
+
+
+  .navigationcv {
+    width: 25%;
+    float: left;
+    margin-right: 15px;
+    background-color: #f9f9f8;
+    padding-bottom: 100px;
+  
+}
+
+  .navigationcv  a {
+  border  : 1px solid #d7d7d7;
+  
+
+}
+
+.sectioncv{
+  border  : 0.2px solid #d7d7d7;
+  width: 100%;
+  
+  /*margin-left: 15px;*/
+}
+
+
+
+  .inputFullName {
+  width: 200px;
+  /*border-right: 1px solid #d7d7d7;*/
+ 
+}
+
+.inputFullName a:hover {
+     color: #04b2cc;
+     
+}
+
+.inputformcustom{
+  width: 92%;
+}
+
+
+
+#formcv label{
+  font-weight: bold;
+display: block;
+color: #777;
+
+}
+.inputNewSection{
+  font-weight: bold;
+}
+
+#addsectionModal{
+  
+  padding-top: 15%;
+ 
+}
+
+#select2ville{
+  margin-right: 50px;
+}
+

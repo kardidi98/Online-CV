@@ -1,0 +1,37 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+#conteneur{
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-family: Arial;
+  text-align: center;
+  text-decoration: none;
+  
+ 
+}
+
+#conteneur p:hover{
+  border: 2px solid #ccc;
+  
+ 
+}
+
+
+#wholecontainer{
+	margin-left: 100px;
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial;
+}
+
+#titreinteraction1{
+	margin-left: 20px;
+}
+img{
+	 border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  
+}
